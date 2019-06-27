@@ -1,0 +1,249 @@
+.header-color {
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .landing-grid {
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+  /*Betyg*/
+  .display-linebreak {
+    white-space: pre-line;
+  }
+  /*Betyg*/
+
+  /*Om mig (About Me)*/
+
+  .about-body  {
+    margin: auto;
+    background: #200122;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 5em;
+  }
+  .about-grid  {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100em;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: black;
+    border: groove black;
+    margin-bottom: 20px;
+  }
+
+  .about-right-col {
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    color: white;
+    border-radius: 15px;
+  
+  }
+  
+  .about-left-col {
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+  
+  }
+
+  /*Om mig (About Me) slut*/
+  .projects-grid {
+    display: flex;
+    
+  }
+  .projects-test {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: black;
+    border: groove black;
+    margin-bottom: 0px;
+
+  }
+
+
+  /* CV sidan css*/
+  .resume-right-col {
+    background: #27221F;
+    color: white; 
+    padding: 2em;
+  }
+
+  .resume-right2-col {
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    color: white;
+    border-radius: 5px;
+    padding: 0em;
+  
+  }
+  
+  .resume-left-col {
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    height: 1200px;
+  
+  }
+
+  .resume-grid {
+    background: #200122;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                              
+    
+  }
+
+  /*Kontakt page css*/
+
+  .contact-body  {
+    margin: auto;
+    background: #200122;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+  }
+
+  .contact-grid  {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 400px;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    color: white;
+    border: groove darkgray;
+    margin-bottom: 20px;
+  }
+
+  .contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+  }
+  .contact-grid h3 {
+    font-family: 'oxygen', sans-serif;
+  }
+  .contact-grid p {
+    font-family: 'oxygen', sans-serif;
+    
+  }
+
+  .contact-grid hr {
+    border-top: 5px dotted yellow;
+    width: 50%;
+    margin: auto;
+  }
+
+  .contact-list i {
+    font-size: 50px;
+    padding-right: 5rem; 
+    color: white;
+    
+  }
+
+  /*Kontakt page css*/
+  .avatar-img {
+    height: 250px;
+    padding-top: 5em;
+  }
+
+  .avatar2-img {
+    height: 500px;
+    padding-top: 10em;
+  }
+
+  .avatar3-img {
+    height: 250px;
+    padding-top: 5em;
+  }
+
+  .avatar4-img {
+    height: 30px;
+    padding-right: 96%;
+    margin-bottom: 0px;
+  }
+
+  .banner-text {
+    background-color: black;
+    opacity: .8;
+    width: 50%;
+    margin: auto;
+    border-radius: 6px;
+    padding-top: 1em;
+  }
+
+  .banner-text h1 {
+    font-size:  66px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .banner-text h2 {
+    font-size:  40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  .banner-text hr {
+    border-top: 5px dotted rgb(255, 251, 0);
+    width: 50%;
+    margin: auto;
+  }
+  
+  
+  .banner-text p {
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+  }
+
+  .social-links i {
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+  }
+
+  /* ICONS */
+
+  
+  .fa-envelope:hover{color:#6f0000}
+  .fa-linkedin-square:hover{color: #0077B5}
+  .fa-linkedin:hover{color:#0077B5}
+  .fa-linkedin{color: white}
