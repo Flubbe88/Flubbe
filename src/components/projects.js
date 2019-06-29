@@ -25,11 +25,11 @@ class Projects extends Component {
                         And it invoke SCCM cycles for the targered computer 
                     </CardText>
                     <CardActions border>                    
+                    <a href="https://github.com/Flubbe88/Datorinfo" rel="noopener noreferrer" target="_blank">
                         <Button Colored>
-                        <a href="https://github.com/Flubbe88/Datorinfo" rel="noopener noreferrer" target="_blank">
                             GitHub
-                        </a>
                         </Button> 
+                        </a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                     </CardMenu>
@@ -42,12 +42,13 @@ class Projects extends Component {
                     <CardText>
                         Batch computer info will take computername from a CSV file and do foreach command to retreive data such as Windows version, Operatingsystem, Computer name, Computer model, OS build, Networksadapter, IP and MAC on the active card, AC connected, Disk space left and active User on the computer
                     </CardText>
-                    <CardActions border>                    
+                    <CardActions border>
+                    <a href="https://github.com/Flubbe88/Batch-Datorinfo/tree/master" rel="noopener noreferrer" target="_blank">                    
                         <Button Colored>
-                        <a href="https://github.com/Flubbe88/Batch-Datorinfo/tree/master" rel="noopener noreferrer" target="_blank">
                             GitHub
+                        
+                        </Button>
                         </a>
-                        </Button> 
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                     </CardMenu>
@@ -75,12 +76,12 @@ class Projects extends Component {
                     <CardText>
                         My Resume homepage was made in a test of React java programming
                     </CardText>
-                    <CardActions border>                    
-                        <Button Colored>
-                        <a href="https://github.com/Flubbe88/Flubbe" rel="noopener noreferrer" target="_blank">
+                    <CardActions border>
+                    <a href="https://github.com/Flubbe88/Flubbe" rel="noopener noreferrer" target="_blank">                    
+                        <Button Colored>                        
                             GitHub
-                        </a>
-                            </Button> 
+                            </Button>
+                            </a> 
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                     </CardMenu>
