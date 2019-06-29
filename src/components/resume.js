@@ -21,8 +21,8 @@ class Resume extends Component {
                         />
                     </div>
 
-                    <h2 style={{paddingTop: '0em'}}>Niklas Flyborg</h2>
-                    <h4 style={{color: 'grey', maring: 'auto', paddingTop: '0em'}}>IT Technician</h4>
+                    <h2 style={{marginBottom: '0em'}}>Niklas Flyborg</h2>
+                    <h5 style={{ width: '90%', margin: 'auto', paddingBottom: '15px', paddingTop:'5px',textDecorationLine:'underline', color:'grey', fontVariant:'small-caps', fontSize: '15px'}}>Network and Systemadministrator</h5>
                     <p style={{ width: '90%', margin: 'auto', paddingTop: '0em' }}>Hey!</p>
                     <p style={{ width: '90%', margin: 'auto', paddingTop: '5px' }}>
                     My name is Niklas Flyborg is 30 years old and I live in Högsbo I am passionate about everything 
