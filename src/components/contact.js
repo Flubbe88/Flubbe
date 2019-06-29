@@ -17,7 +17,7 @@ class Contact extends Component {
                              />
                              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
                              Thank you for looking in!<br></br>
-                             If you where intressted in me fell free to contact me at LinkedIn
+                             If you are interested in me, please contact me on LinkedIn
                              </p>
 
                      </Cell>
