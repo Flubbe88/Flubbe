@@ -29,7 +29,18 @@ class Landing extends Component {
 
                         <p>SCCM | Powershell | React | Problem solving</p>
 
-                    <div style={{paddingLeft:'34em'}} className="social-links">
+                    <div style={{paddingLeft:'0'}} className="social-links">
+                        {/* Instagram */}
+                        <a href="https://www.instagram.com/flubbe88/" rel="noopener noreferrer" target="_blank">
+                            <i className="fa fa-instagram" aria-hidden="true" />
+                        </a>
+                        
+                        {/* Github */}
+                        <a href="https://github.com/Flubbe88" rel="noopener noreferrer" target="_blank">
+                        <i className="fa fa-github" aria-hidden="true" />
+                        </a>
+
+
                         {/* Linkedin */}
                         <a href="https://www.linkedin.com/in/niklas-flyborg-70784a9b" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-linkedin-square" aria-hidden="true" />

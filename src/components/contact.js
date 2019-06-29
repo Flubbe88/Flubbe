@@ -30,7 +30,9 @@ class Contact extends Component {
                             
                             <ListItem>
                                 <ListItemContent style={{fontSize: '25px', fontFamily: 'oxygen',color:'white'}}>
+                                <a href="https://www.linkedin.com/in/niklas-flyborg-70784a9b" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-linkedin" aria-hidden="true"/>
+                                    </a>
                                     Niklas Flyborg @ LinkedIn
                                     </ListItemContent>
                             </ListItem>
