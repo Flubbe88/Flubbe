@@ -17,7 +17,7 @@ class Contact extends Component {
                              />
                              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
                              Thank you for looking in!<br></br>
-                             Contact me on LinkedIn or via my email address
+                             If you where intressted in me fell free to contact me at LinkedIn
                              </p>
 
                      </Cell>
@@ -35,12 +35,7 @@ class Contact extends Component {
                                     </ListItemContent>
                             </ListItem>
                             
-                            <ListItem>
-                                <ListItemContent style={{fontSize: '25px', fontFamily: 'oxygen',color:'white' }}>
-                                    <i className="fa fa-envelope" aria-hidden="true"/>
-                                    Flyborg88@gmail.com
-                                    </ListItemContent>
-                            </ListItem>
+                            
                             
                         
 

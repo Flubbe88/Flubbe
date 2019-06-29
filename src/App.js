@@ -13,8 +13,9 @@ function App() {
             <Navigation>
                 
                 <Link to="/aboutme"></Link>
-                <Link to="/projects"></Link>
-                <Link to="/">Home</Link>
+                
+                <Link style={{color:'green', fontSize:'25px'}} to="/"><i style={{fontWeight:'bold'}} className="fa fa-code" aria-hidden="true"/></Link>
+                <Link to="/projects">Projects</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/contact">Contact</Link>
 
@@ -25,6 +26,7 @@ function App() {
         to="/">Niklas Flyborg</Link>}>
             <Navigation>
                 
+                <Link to="/projects">Projects</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/contact">Contact</Link>
                 

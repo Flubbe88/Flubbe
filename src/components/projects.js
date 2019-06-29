@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu } from 'react-mdl';
 
 class Projects extends Component {
     constructor(props)  { 
@@ -17,55 +17,45 @@ class Projects extends Component {
                     
                     
                     {/*Project 1 */}
-                <Card shadow= {5} style ={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background:
-                    'url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fksusentinel.com%2Fwp-content%2Fuploads%2F2016%2F02%2F20445410520_97a11633c7_o.jpg&f=1) center / cover'}} >React Project #1</CardTitle>
+                <Card shadow= {100} style ={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'Yellow', height: '176px',fontVariant:'small-caps', background:
+                    'url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.askme4tech.com%2Fsites%2Fdefault%2Ffiles%2Fpowershell-wmi1.jpg&f=1) center / cover'}} >Form Datorinfo</CardTitle>
                     <CardText>
-                        Project 1
+                        Datorinfo [Computerinfo] is build as a form with script that get information from local computers: Hostname, Windows version, IP address, MAC:address, Active networks card, If power source are connected, Username. 
+                        And it invoke SCCM cycles for the targered computer 
                     </CardText>
-                    <CardActions border>
-                        <Button Colored>GitHub</Button>
-                        <Button Colored>CodePen</Button>
-                        <Button Colored>Live Demo</Button>
+                    <CardActions border>                    
+                        <Button Colored>
+                        <a href="https://github.com/Flubbe88/Datorinfo" rel="noopener noreferrer" target="_blank">
+                            GitHub
+                        </a>
+                        </Button> 
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
-                      <IconButton name="Share" />  
                     </CardMenu>
                 </Card>
 
-                    {/*Project 2*/}
-                <Card shadow= {5} style ={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background:
-                    'url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.sheffield.ac.uk%2Fpolopoly_fs%2F1.761228!%2Fimage%2Fdigital-coding-785.jpg&f=1) center / cover'}} >React Project #2</CardTitle>
+                                    {/*Project 2 */}
+                <Card shadow= {100} style ={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'Yellow', height: '176px',fontVariant:'small-caps',paddingtop:'25px', background:
+                    'url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fstackify.com%2Fwp-content%2Fuploads%2F2017%2F04%2FPowershell-commands-793x397.jpg&f=1) center / cover'}} >Batch Datorinfo</CardTitle>
                     <CardText>
-                        Project 2
+                        Batch computer info will take computername from a CSV file and do foreach command to retreive data such as Windows version, Operatingsystem, Computer name, Computer model, OS build, Networksadapter, IP and MAC on the active card, AC connected, Disk space left and active User on the computer
                     </CardText>
-                    <CardActions border>
-                        <Button Colored>GitHub</Button>
-                        <Button Colored>CodePen</Button>
-                        <Button Colored>Live Demo</Button>
+                    <CardActions border>                    
+                        <Button Colored>
+                        <a href="https://github.com/Flubbe88/Batch-Datorinfo/tree/master" rel="noopener noreferrer" target="_blank">
+                            GitHub
+                        </a>
+                        </Button> 
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
-                      <IconButton name="Share" />  
                     </CardMenu>
                 </Card>
 
-                    {/*Project 3*/}
-                <Card shadow= {5} style ={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background:
-                    'url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fstephenhaunts.files.wordpress.com%2F2014%2F07%2Fpowershell-v3-1280x1024.jpg&f=1) center / cover'}} >React Project #3</CardTitle>
-                    <CardText>
-                        Project 3
-                    </CardText>
-                    <CardActions border>
-                        <Button Colored>GitHub</Button>
-                        <Button Colored>CodePen</Button>
-                        <Button Colored>Live Demo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                      <IconButton name="Share" />  
-                    </CardMenu>
-                </Card>
+
+
+
                 </div>                
                 
 
@@ -73,7 +63,33 @@ class Projects extends Component {
             )
         } else if(this.state.activeTab === 1) {
             return(
-                <div><h1>Detta är Angular</h1></div>
+                
+                
+                <div style={{margin:'auto'}} className="projects-grid">
+                    
+                    
+                    {/*Project 1 React */}
+                <Card shadow= {100} style ={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'Purple', height: '176px', background:
+                    'url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.EntHChgUyirgbZ9A3zTxkAHaFj%26pid%3DApi&f=1) center / cover'}} >Resume homepage</CardTitle>
+                    <CardText>
+                        My Resume homepage was made in a test of React java programming
+                    </CardText>
+                    <CardActions border>                    
+                        <Button Colored>
+                        <a href="https://github.com/Flubbe88/Flubbe" rel="noopener noreferrer" target="_blank">
+                            GitHub
+                        </a>
+                            </Button> 
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                    </CardMenu>
+                </Card>
+
+                </div>                
+                
+
+
             )
         } else if(this.state.activeTab === 2) {
             return (
@@ -92,9 +108,8 @@ class Projects extends Component {
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple>
                     <Tab>Powershell <i className="fa fa-terminal" aria-hidden="true"/> </Tab>
-                    <Tab>Angular</Tab>
-                    <Tab>VueJS</Tab>
-                    <Tab>MongoDB</Tab>
+                    <Tab>React <i className="fa fa-terminal" aria-hidden="true"/> </Tab>
+                    
                 </Tabs>
 
                 
